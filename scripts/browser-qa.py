@@ -35,7 +35,9 @@ try:
   driver.execute_cdp_cmd('Emulation.setDeviceMetricsOverride',{'mobile':False,'width':1440,'height':1000,'deviceScaleFactor':1})
   driver.get(args.url); driver.execute_script('document.querySelector(".skip-link").focus()')
   if driver.execute_script('return document.activeElement.textContent.trim()')!='Skip to main content': fail.append('keyboard: skip link focus failed')
-  if driver.execute_script("return matchMedia('(prefers-reduced-motion: reduce)').matches") is True: pass
+  driver.execute_cdp_cmd('Emulation.setEmulatedMedia',{'features':[{'name':'prefers-reduced-motion','value':'reduce'}]})
+  if driver.execute_script("return matchMedia('(prefers-reduced-motion: reduce)').matches") is not True: fail.append('reduced-motion query did not activate')
+  driver.execute_cdp_cmd('Emulation.setEmulatedMedia',{'features':[]})
   anchors=driver.execute_script("return Array.from(document.querySelectorAll('a[href^=\"#\"]')).map(a=>a.getAttribute('href'))")
   for href in anchors:
     if not driver.execute_script('return !!document.querySelector(arguments[0])',href): fail.append('broken anchor '+href)
