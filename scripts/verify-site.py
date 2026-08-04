@@ -21,8 +21,8 @@ for text,label in [
 ('https://492kw.github.io/australian-cybersecurity-training/','canonical URL'),
 ('mailto:enzo491kw@gmail.com?subject=Cybersecurity%20training%20enquiry','approved mailto'),
 ('Skip to main content','skip link'),('Why this matters in Australia','evidence section'),
-('over 84,700 cybercrime reports','84,700 qualifier'),('one report every six minutes','six-minute figure'),('over 1,200 cyber security incidents','1,200 qualifier'),
-('$80,850 overall','$80,850 figure'),('$56,600 for small business','$56,600 figure'),('$97,200 for medium business','$97,200 figure'),
+('assets/images/cyber-risk-in-australia.png','cyber risk infographic'),('assets/images/from-risk-to-readiness.png','readiness infographic'),
+('See sources ','concise evidence source note'),('href="#source-1"','source 1 citation'),('href="#source-2"','source 2 citation'),
 ('OAIC data, not ASD data','OAIC attribution panel'),('1,205','OAIC total'),('716','OAIC malicious figure'),('225 notifications (19%)','OAIC health figure'),
 ('Cyber Ready for Small Business provides educational cybersecurity training. It is not legal advice, privacy advice, incident-response advice or a certification service. Cyber Ready for Small Business is not affiliated with, endorsed by or acting on behalf of the Australian Signals Directorate (ASD), the Australian Cyber Security Centre (ACSC), the Office of the Australian Information Commissioner (OAIC), or the Australian Digital Health Agency.','exact disclaimer'),
 ('aria-expanded','mobile menu state'),('aria-controls="site-nav"','mobile nav controls')]: need(text,label)
