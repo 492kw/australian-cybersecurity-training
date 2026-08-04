@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Dependency-light release gate for the Cyber Ready static site."""
 from pathlib import Path
+from html import unescape
 from html.parser import HTMLParser
 import re, sys
 ROOT=Path(__file__).resolve().parents[1]
@@ -43,6 +44,21 @@ if re.search(r'\b\$?\d+[\d,.]*\s*(hours?|days?|minutes?)\s+(?:of\s+)?(?:downtime
 if '<script src="http' in html or '<link rel="stylesheet" href="http' in html: errors.append('external runtime dependency')
 if not re.search(r'<main\b[^>]*id="main-content"',html): errors.append('main landmark')
 if not re.search(r'<nav\b[^>]*aria-label="Primary navigation"',html): errors.append('primary nav label')
+# The SMB healthcare context copy is approved wording; normalise markup whitespace,
+# but require the citation to remain attached to the healthcare sentence.
+context_match=re.search(r'<section class="section context"[^>]*>.*?<div class="prose">\s*<p>(.*?)</p>',html,re.S)
+expected_context=('Small and medium businesses often hold valuable customer information while working within practical limits on time, budget and specialist cybersecurity support. '
+                  'Healthcare providers face an added concern: the sensitive health information they handle requires particular care.[6] '
+                  'Practical training puts everyday decisions in context: checking unexpected emails and invoices, protecting accounts, handling sensitive information, keeping devices current and knowing where to raise a concern.')
+if not context_match:
+    errors.append('SMB healthcare context paragraph')
+else:
+    context_markup=context_match.group(1)
+    context_text=re.sub(r'\s+',' ',unescape(re.sub(r'<[^>]+>','',context_markup))).strip()
+    if context_text != expected_context: errors.append('exact SMB healthcare context copy')
+    if not re.search(r'requires particular care\.<a href="#source-6" aria-label="Read source 6 in the source register">\[6\]</a>\s*Practical training',context_markup): errors.append('source 6 attached to healthcare sentence')
+if 'Small and medium businesses often balance customer service, cash flow and technology with limited time.' in html:
+    errors.append('removed context opening wording present')
 # Check every fragment link resolves to one id.
 ids=set(re.findall(r'\bid="([^"]+)"',html))
 for fragment in re.findall(r'href="#([^"]+)"',html):
