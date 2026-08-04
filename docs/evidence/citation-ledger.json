@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025",
+      "title": "ASD Annual Cyber Threat Report 2024–25",
+      "accessed": "2026-08-04",
+      "quotes": [
+        {
+          "text": "Ransomware continues to be the most disruptive cybercrime threat in FY2024–25.",
+          "added": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.cyber.gov.au/sites/default/files/2025-10/Annual%20Cyber%20Threat%20Report%202024-25%20factsheet%20for%20businesses%20and%20organisations.pdf",
+      "title": "ASD Annual Cyber Threat Report 2024–25 fact sheet for businesses and organisations",
+      "accessed": "2026-08-04",
+      "quotes": [
+        {
+          "text": "In FY2024–25, ASD’s ACSC received over 84,700 cybercrime reports – an average of one report every 6 minutes.",
+          "added": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.cyber.gov.au/sites/default/files/2023-11/PROTECT%20-%20Essential%20Eight%20Explained%20%28November%202023%29.pdf",
+      "title": "ASD Essential Eight Explained (November 2023)",
+      "accessed": "2026-08-04",
+      "quotes": [
+        {
+          "text": "The mitigation strategies that constitute the Essential Eight are: patch applications; patch operating systems; multi-factor authentication; restrict administrative privileges; application control; restrict Microsoft Office macros; user application hardening; regular backups.",
+          "added": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.cyber.gov.au/sites/default/files/2025-01/ACSC_Small_business_cyber_security_guide_January_2025.pdf",
+      "title": "ACSC Small business cyber security guide (January 2025)",
+      "accessed": "2026-08-04",
+      "quotes": [
+        {
+          "text": "The best defence against email attacks is training.",
+          "added": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.oaic.gov.au/news/media-centre/data-breach-notifications-increase-to-all-time-high-in-2025,-new-ndb-stats-show",
+      "title": "OAIC: Data breach notifications increase to all-time high in 2025, new NDB stats show",
+      "accessed": "2026-08-04",
+      "quotes": [
+        {
+          "text": "The OAIC received 1,205 data breach notifications in the 2025 calendar year, representing an 8% increase over 2024 (1,112 notifications).",
+          "added": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/health-service-providers/guide-to-health-privacy",
+      "title": "OAIC Guide to health privacy",
+      "accessed": "2026-08-04",
+      "quotes": [
+        {
+          "text": "Health service providers routinely handle sensitive health information about their patients and customers.",
+          "added": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://www.oaic.gov.au/privacy/notifiable-data-breaches/when-to-report-a-data-breach",
+      "title": "OAIC: When to report a data breach",
+      "accessed": "2026-08-04",
+      "quotes": [
+        {
+          "text": "Under the Notifiable Data Breach (NDB) scheme an organisation or agency must notify affected individuals and the OAIC about an eligible data breach.",
+          "added": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://www.digitalhealth.gov.au/healthcare-providers/initiatives-and-programs/my-health-record/data-breaches/my-health-record-data-breach-notification",
+      "title": "Australian Digital Health Agency: My Health Record Data Breach Notification",
+      "accessed": "2026-08-04",
+      "quotes": [
+        {
+          "text": "Reporting entities must notify the Australian Digital Health Agency (the Agency), as system operator for My Health Record, of any actual or potential data breach.",
+          "added": "2026-08-04"
+        }
+      ]
+    }
+  ]
+}

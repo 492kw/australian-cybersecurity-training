@@ -1,0 +1,64 @@
+Retrieved primary-source excerpts used to verify the design specification
+Retrieval date: 2026-08-04
+
+[1] ASD Annual Cyber Threat Report 2024–25
+URL: https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025
+
+Ransomware continues to be the most disruptive cybercrime threat in FY2024–25. In FY2024–25, ASD’s ACSC responded to 138 ransomware incidents, 39% of which were the result of ASD’s ACSC contacting the entity to warn of a possible cyber security incident.
+
+Ransomware provides cybercriminals with lucrative opportunities to extort substantial ransoms from vulnerable Australian organisations. Ransomware is effective, high-impact malware that can cripple an organisation’s ability to function. Ransomware causes serious operational, financial, and reputational consequences for victims while, in some cases, also threatening the security of the broader community.
+
+ASD’s ACSC manages or uses several unique datasets to produce tailored advice and assistance for Australian organisations and individuals. Not all cybercrimes lead to cyber security incidents, and the statistics in this report are from 2 distinct datasets: cybercrimes reported to law enforcement through ReportCyber, and cyber security incidents responded to by ASD’s ACSC.
+
+[2] ASD Annual Cyber Threat Report 2024–25 fact sheet for businesses and organisations
+URL: https://www.cyber.gov.au/sites/default/files/2025-10/Annual%20Cyber%20Threat%20Report%202024-25%20factsheet%20for%20businesses%20and%20organisations.pdf
+
+The Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) responded to over 1,200 cyber security incidents – an 11% increase from last year.
+
+In FY2024–25, ASD’s ACSC received over 84,700 cybercrime reports – an average of one report every 6 minutes.
+
+For businesses, the average self-reported cost of cybercrime per report was up 50% overall ($80,850). The average self-reported cost per report and business size was: small business – $56,600 (up 14%); medium business – $97,200 (up 55%).
+
+[3] ASD Essential Eight Explained (November 2023)
+URL: https://www.cyber.gov.au/sites/default/files/2023-11/PROTECT%20-%20Essential%20Eight%20Explained%20%28November%202023%29.pdf
+
+The mitigation strategies that constitute the Essential Eight are: patch applications; patch operating systems; multi-factor authentication; restrict administrative privileges; application control; restrict Microsoft Office macros; user application hardening; regular backups.
+
+[4] ACSC Small business cyber security guide (January 2025)
+URL: https://www.cyber.gov.au/sites/default/files/2025-01/ACSC_Small_business_cyber_security_guide_January_2025.pdf
+
+The best defence against email attacks is training.
+
+However you decide, remember that cyber security training isn’t a once-off requirement and should be refreshed periodically.
+
+An emergency plan could reduce the impact of a cyber attack on your business. When responding to a cyber security incident, every minute accounts. Having an emergency plan means your staff can spend less time figuring out what to do and more time taking action.
+
+[5] OAIC: Data breach notifications increase to all-time high in 2025, new NDB stats show
+URL: https://www.oaic.gov.au/news/media-centre/data-breach-notifications-increase-to-all-time-high-in-2025,-new-ndb-stats-show
+
+The OAIC received 1,205 data breach notifications in the 2025 calendar year, representing an 8% increase over 2024 (1,112 notifications).
+
+Of the 1,205 data breaches notified in 2025, the majority were attributable to malicious or criminal activity (716 notifications), with health service providers the most commonly affected, and accounting for 19% of the total or 225 notifications.
+
+[6] OAIC Guide to health privacy
+URL: https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/health-service-providers/guide-to-health-privacy
+
+Health service providers routinely handle sensitive health information about their patients and customers.
+
+This guide has been written to help health services providers — from doctors and private sector hospitals, through to allied health professionals, pharmacists, childcare centres and gyms — understand their obligations under the Privacy Act 1988, and embed good privacy in their practice.
+
+[7] OAIC: When to report a data breach
+URL: https://www.oaic.gov.au/privacy/notifiable-data-breaches/when-to-report-a-data-breach
+
+Under the Notifiable Data Breach (NDB) scheme an organisation or agency must notify affected individuals and the OAIC about an eligible data breach.
+
+An eligible data breach occurs when: there is unauthorised access to or unauthorised disclosure of personal information, or a loss of personal information, that an organisation or agency holds; this is likely to result in serious harm to one or more individuals; and the organisation or agency hasn’t been able to prevent the likely risk of serious harm with remedial action.
+
+[8] Australian Digital Health Agency: My Health Record Data Breach Notification
+URL: https://www.digitalhealth.gov.au/healthcare-providers/initiatives-and-programs/my-health-record/data-breaches/my-health-record-data-breach-notification
+
+Reporting entities must notify the Australian Digital Health Agency (the Agency), as system operator for My Health Record, of any actual or potential data breach. Data breach notifications must be submitted as soon as practicable after the reporting entity becomes aware that the breach has, or may have, occurred (regardless of whether or not the data breach has been confirmed).
+
+Note: Data breaches that do not involve My Health Record may need to be handled in accordance with the Privacy Act 1988 Notifiable data breaches scheme.
+
+With some exceptions (see note below), reporting entities are also required to notify the Office of the Australian Information Commissioner (OAIC) of an actual or potential data breach.
