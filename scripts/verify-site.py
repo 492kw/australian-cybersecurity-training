@@ -31,8 +31,10 @@ for text,label in [('prefers-reduced-motion','reduced motion CSS'),(':focus-visi
 count('<h1','1','H1 count')
 for s in ['Patch applications','Patch operating systems','Multi-factor authentication','Restrict administrative privileges','Application control','Restrict Microsoft Office macros','User application hardening','Regular backups']: count(f'<h3>{s}</h3>',1,f'Essential Eight heading {s}')
 for n in range(1,9): need(f'id="source-{n}"',f'source anchor {n}')
-for f in ['favicon.svg','assets/css/site.css','assets/js/site.js','assets/images/cyber-ready-field-guide.svg','assets/images/social-card.svg']:
+for f in ['favicon.svg','assets/css/site.css','assets/js/site.js','assets/images/social-card.svg']:
     if not (ROOT/f).exists(): errors.append('missing asset '+f)
+if 'cyber-ready-field-guide.svg' in html or 'Operational readiness field guide' in html:
+    errors.append('removed Operational Readiness Field Guide graphic still rendered')
 # No surname, excluding functional email address.
 visible_or_meta=re.sub(r'enzofung|simonfungwork@gmail.com','',html,flags=re.I)
 if re.search(r'\bFung\b',visible_or_meta,re.I): errors.append('surname appears outside functional email')
